@@ -1,0 +1,125 @@
+body{
+
+    background-image:url(imagens/einsten.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
+main{
+    height: auto;
+    max-width: 300px;
+    min-width: 300px;
+    background-color:rgba(119, 119, 119, 0.205);
+    margin: auto;
+    border:10px solid rgba(255, 255, 255, 0.541);
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+    
+
+}
+
+h1{
+text-align: center;
+background-image: linear-gradient(to top,rgba(0, 183, 255, 0.192), rgba(132, 0, 255, 0.178) );
+width: 250px;
+height: 35px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#divtudo{
+
+    padding: 20px;
+   
+}
+input[type='button'] {
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    width: 120px;
+    margin-top: 6px;
+    border: 2px solid rgba(91, 43, 126, 0.747);
+}
+section{
+    background-color: rgba(255, 254, 254, 0.952);
+}
+#inputNumber1{
+    border: none;
+    outline: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+    height: 20px;
+    width: 10em;
+    
+}
+#inputNumber2{
+    border: none;
+    outline: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+    height: 20px;
+    width: 10em;
+   
+    
+}
+#divp{
+justify-content: center;
+align-items: center;
+display: grid;
+   
+}
+input[type='button']:hover{
+background-color: rgba(117, 117, 117, 0.733);
+transform: scale(0.95);
+}
+#inputNumber2:focus{
+    background-color: rgba(63, 61, 61, 0.288);
+    transform: scale(0.88);
+    box-shadow: none;
+
+}
+#inputNumber1:focus{
+    background-color: rgba(63, 61, 61, 0.288);
+    transform: scale(0.88);
+    box-shadow: none;
+    
+}
+p{
+    text-align: center;
+}
+
+#res {
+background-color: rgba(91, 29, 172, 0.322);
+padding: 0;
+height: auto;
+margin: auto;
+margin-bottom: 5px;
+
+}
+#espressoes{
+   background-color: rgba(66, 15, 133, 0.295);
+   padding: 0;
+   height: auto;
+   margin: auto;
+
+   
+}
+#limpar{
+margin-left: 25%;
+
+}
+footer{
+    margin-top: 8px;
+    width: 200px;
+    
+}
+.footer{
+     background-image: linear-gradient(to top,rgba(0, 183, 255, 0.192), rgba(132, 0, 255, 0.178) );
+   
+ 
+}
+.totfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

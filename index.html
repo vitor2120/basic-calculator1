@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> basic calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/fav.calculator.png" type="image/x-icon">
+</head>
+<body>
+    <header><h1>Calculadora</h1></header>
+
+<main>
+    <section>
+    
+        <div id="divtudo">
+                <div id="divp">
+                    <p id="valor1">valor1:<input type="number" id="inputNumber1"></p>
+                    <p id="espressoes"> + - x / </p>
+                    <p id="valor2">valor2:<input type="number" id="inputNumber2"></p>
+                    <div id="res"></div>
+             </div>
+           
+             
+            <input type="button" value="somar" onclick="somar()">
+             <input type="button" value="subtrair" onclick="subtrair()" >
+             <input type="button" value="multiplicar" onclick="multiplicar()">
+            <input type="button" value="dividir" onclick="dividir()">
+            <input type="button" value="AC" id="limpar" onclick="limpar()">
+            
+        </div>
+       
+    
+    </section>
+</main>
+
+<div class="totfooter">
+    <footer>
+        <p class="footer">@vitorrmaciel_</p>
+    </footer>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
